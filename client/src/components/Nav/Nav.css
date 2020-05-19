@@ -1,0 +1,44 @@
+.navbar {
+    background-color: lightgreen;
+    color: black;
+    font-family: 'Lobster', cursive;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav_wrapper{
+    width:100%;
+    background-color:#ffffcc;
+  }
+
+.navbar:hover {
+    text-decoration: none;
+    color:black;
+}
+
+.nav-home {
+    color: black;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-item {
+    color: black;
+    /* margin-left: 35px; */
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-home:hover {
+    text-decoration: none;
+    color:black;
+    background-color: #ffffcc;
+}
+
+.nav-item:hover {
+    text-decoration: none;
+    color:black;
+    background-color: #ffffcc;
+}
