@@ -1,16 +1,14 @@
 .navbar {
-    background-color: lightgreen;
+    background-color:#7ca3f7;
     color: black;
-    font-family: 'Lobster', cursive;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    font-family:  'Righteous', cursive;
     width: 100%;
     overflow: hidden;
 }
 
 .nav_wrapper{
     width:100%;
-    background-color:#ffffcc;
+    background-color:#7ca3f7;
   }
 
 .navbar:hover {
@@ -19,26 +17,26 @@
 }
 
 .nav-home {
-    color: black;
-    font-size: 50px;
-    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 30px;
+    font-family:  'Righteous', cursive;
 }
 
 .nav-item {
-    color: black;
+    color: white;
     /* margin-left: 35px; */
-    font-size: 35px;
-    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
 }
 
 .nav-home:hover {
     text-decoration: none;
-    color:black;
-    background-color: #ffffcc;
+    color:#35b84d;
+    background-color:#7ca3f7;
 }
 
 .nav-item:hover {
     text-decoration: none;
-    color:black;
-    background-color: #ffffcc;
+    color:#35b84d;
+    background-color: #7ca3f7;
 }

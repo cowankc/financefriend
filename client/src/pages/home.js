@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Banner from "../components/Banner";
+import Module from "../components/Module";
+import "./pages.css";
 
 class Home extends Component {
   state = {
@@ -8,22 +11,31 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div>
+        <Banner>
           <h1>Welcome To Finance Friend</h1>
-        </div>
-        <div>
-          <p>Easy to use and free for everyone, Finance Friend is designed to help you 
+        </Banner>
+        <div >
+          <p className="info">Easy to use and free for everyone, Finance Friend is designed to help you 
             budget and create ways to save for future purchases.
           </p>
         </div>
         <div>
-          <h3>Create an Account</h3>
-          <h3>Find your Budget</h3>
+          <Module>
+            <h3>Create an Account</h3>
+          </Module>
+          <Module>
+            <h3>Find your Budget</h3>
+          </Module>
+          <Module>
           <h3>Create new Savings Goal</h3>
+          </Module>
         </div> 
         <div>
-          <button>Get Started</button>
-          <button>Login</button>
+
+        </div>
+        <div id="buttons">
+          <button id="start">Get Started</button>
+          <button id="login">Login</button>
         </div>
       </div>
     );

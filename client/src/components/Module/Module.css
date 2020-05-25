@@ -1,0 +1,18 @@
+#module {
+    font-family: 'Righteous', cursive;
+    background-color: #35b84d;
+    margin: auto;
+    position: reletive; 
+    float: left;
+    margin: 25px 135px 25px 150px;
+    clear: none;
+    color:white;
+    text-align: center;
+    width: 210px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.clearfix {
+    overflow: auto;
+  }

@@ -1,0 +1,17 @@
+#banner {
+    height: 300px;
+    text-align: center;
+    color: #35b84d;
+    font-weight: bolder;
+    clear: both;
+    font-size: 30px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-top: 50px;
+    background-image: url("../../utils/images/money.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Righteous', cursive;
+    border: 5px solid #7ca3f7;
+    margin: 50px 300px 50px 300px;
+}

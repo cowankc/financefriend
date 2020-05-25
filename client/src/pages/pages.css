@@ -1,0 +1,31 @@
+
+.info {
+    text-align: center;
+    margin: auto;
+    color: white;
+    background-color: #7ca3f7;
+    font-size: 30px;
+    margin: 25px 100px 25px 100px;
+    padding: 30px 30px 30px 30px;
+    font-family: 'Righteous', cursive;
+    border-radius: 25px;
+}
+
+#buttons {
+    margin: 250px 100px 100px 400px 
+}
+
+button {
+    color: white;
+    background-color: #7ca3f7;
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #35b84d;
+}
