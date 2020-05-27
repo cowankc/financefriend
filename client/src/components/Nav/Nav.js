@@ -32,7 +32,7 @@ class Nav extends Component {
           <a href="/" className="pure-menu-heading pure-menu-link nav-home">Finance Friend</a>
           <ul className="pure-menu-list">
           <li className="pure-menu-item nav-item">{this.state.user}</li>
-            <li className="pure-menu-item"><a href="/home" className="pure-menu-link nav-item">Home</a></li>
+            <li className="pure-menu-item"><a href="/home" className="pure-menu-link nav-item">Login</a></li>
           </ul>
         </div>
       </div>
